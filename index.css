@@ -1,0 +1,33 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:rgb(252, 252, 252);
+}
+body{
+    margin: 10px;
+    background-image: url("LodgePic2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+    background-color:rgb(212, 219, 224);
+    background-position: center;
+    background-attachment: fixed;
+}
+.form{
+    border: 2px solid rgb(245, 239, 239);
+    margin-left:25%;
+    margin-right:25%;
+    border-radius: 12px;
+    padding-bottom: 24px;
+    background-color:rgba(224, 165, 88, 0.671);
+}
+input{
+    padding: 6px;
+    border-radius: 6px;
+    margin: 4px;
+}
+input:hover{
+    cursor:crosshair;
+    color:blue;
+    
+}

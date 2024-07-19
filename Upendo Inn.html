@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-UI</title>
+        <link rel="stylesheet" href="index.css">
+        <script>
+            function details(){
+                confirm("Do you want to continue to the site?");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to Upendo Inn!</h1>
+        <form method="post" action="index.php" target="_parent" class="form">
+            <h2>Please sign in here:</h2><br>
+            <label>Fullname:</label>
+            <input type="text" id="name" placeholder="John Doe"><br>
+            <label>Username:</label>
+            <input type="text" id="user" placeholder="@somebody123"><br>
+            <label>E-mail:</label>
+            <input type="email" id="email" placeholder="john233@doe.com"><br>
+            <label>Phone:</label>
+            <input type="phone" id="phone" placeholder="0700-2020-89"><br>
+            <label for="suite-select">Choose a suite type:</label>
+            <select id="suite-select" onchang>
+                <option value="">Select a suite</option>
+                <option value="standard">Standard Suite</option>
+                <option value="deluxe">Deluxe Suite</option>
+                <option value="premium">Premium Suite</option>
+                <option value="executive">Executive Suite</option>
+            </select><br>
+            <input type="submit" value="Send" onclick="details()">
+        </form>
+
+    </body>
+</html>
